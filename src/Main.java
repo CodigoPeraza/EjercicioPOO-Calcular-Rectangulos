@@ -5,19 +5,19 @@ public class Main {
         float ladoA,ladoB;
 
         Scanner entradaT = new Scanner(System.in);
-        OperacionGeometrica objCuadrilatero;
+        OperacionGeometrica rectangulo;
 
         System.out.println("digite el lado A: ");
         ladoA = entradaT.nextFloat();
         System.out.println("digite el lado B: ");
         ladoB = entradaT.nextFloat();
         //si es cuadrado
-        if (ladoA == ladoB) objCuadrilatero = new OperacionGeometrica(ladoA);
+        if (ladoA == ladoB) rectangulo = new OperacionGeometrica(ladoA);
         //si es rectangulo
-        else objCuadrilatero = new OperacionGeometrica(ladoA, ladoB);
+        else rectangulo = new OperacionGeometrica(ladoA, ladoB);
 
-        System.out.println("el perimetro de su cuadrilatero es: " + objCuadrilatero.getPerimetro());
-        System.out.println("el area de su cuadrilatero es: " + objCuadrilatero.getArea());
+        System.out.println("el perimetro de su cuadrilatero es: " + rectangulo.getPerimetro());
+        System.out.println("el area de su cuadrilatero es: " + rectangulo.getArea());
 
     }
 }
