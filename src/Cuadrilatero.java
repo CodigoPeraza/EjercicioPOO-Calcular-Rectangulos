@@ -1,5 +1,7 @@
-public class Cuadrilatero {
-    private float lado1;
+public abstract class Cuadrilatero extends FiguraGeometrica{
+
+
+    /*private float lado1;
     private float lado2;
 
     //constructores
@@ -22,4 +24,6 @@ public class Cuadrilatero {
     public float getLado2() {
         return lado2;
     }
+
+     */
 }

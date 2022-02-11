@@ -1,5 +1,15 @@
 public class OperacionGeometrica extends Cuadrilatero{
+    @Override
+    public void CalcularArea() {
 
+    }
+
+    @Override
+    public void CalcularPerimetro() {
+
+    }
+
+    /*
     //Para cuadrados y rectángulos
     public OperacionGeometrica(float lado1) {
         super(lado1);
@@ -18,5 +28,7 @@ public class OperacionGeometrica extends Cuadrilatero{
         return area;
 
     }
+
+     */
 
 }
