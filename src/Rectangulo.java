@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Rectangulo extends Cuadrilatero {
     //atributos
     private float lado1;
@@ -7,12 +9,25 @@ public class Rectangulo extends Cuadrilatero {
 
     //métodos
     @Override
-    public void CalcularArea() {
+    public void calcularArea() {
         area = lado1*lado2;
     }
     @Override
-    public void CalcularPerimetro() {
+    public void calcularPerimetro() {
         perimetro = 2*(lado1+lado2);
+    }
+
+    public void pedirDatosConsola(){
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Lado 1: ");
+        lado1 = entrada.nextFloat();
+        System.out.println("Lado 2: ");
+        lado2 = entrada.nextFloat();}
+    public void mostrarDatosConsola(){
+        System.out.println("lado1 = " + lado1);
+        System.out.println("lado2 = " + lado2);
+        System.out.println("perimetro = " + perimetro);
+        System.out.println("area = " + area);
     }
 
     public float getLado1() {

@@ -1,11 +1,11 @@
 public class OperacionGeometrica extends Cuadrilatero{
     @Override
-    public void CalcularArea() {
+    public void calcularArea() {
 
     }
 
     @Override
-    public void CalcularPerimetro() {
+    public void calcularPerimetro() {
 
     }
 
