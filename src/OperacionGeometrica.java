@@ -1,6 +1,6 @@
 public class OperacionGeometrica extends Cuadrilatero{
 
-    //Para cuadrados y rectangulos
+    //Para cuadrados y rectángulos
     public OperacionGeometrica(float lado1) {
         super(lado1);
     }
@@ -16,6 +16,7 @@ public class OperacionGeometrica extends Cuadrilatero{
     public float getArea(){
         float area = getLado1() * getLado2();
         return area;
+
     }
 
 }

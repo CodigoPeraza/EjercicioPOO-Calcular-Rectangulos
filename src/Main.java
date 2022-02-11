@@ -13,11 +13,11 @@ public class Main {
         ladoB = entradaT.nextFloat();
         //si es cuadrado
         if (ladoA == ladoB) rectangulo = new OperacionGeometrica(ladoA);
-        //si es rectangulo
+        //si es rectángulo
         else rectangulo = new OperacionGeometrica(ladoA, ladoB);
 
-        System.out.println("el perimetro de su cuadrilatero es: " + rectangulo.getPerimetro());
-        System.out.println("el area de su cuadrilatero es: " + rectangulo.getArea());
+        System.out.println("el perimetro de su cuadrilátero es: " + rectangulo.getPerimetro());
+        System.out.println("el area de su cuadrilátero es: " + rectangulo.getArea());
 
     }
 }
