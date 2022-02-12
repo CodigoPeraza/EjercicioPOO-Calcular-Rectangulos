@@ -22,7 +22,9 @@ public class Rectangulo extends Cuadrilatero {
         System.out.println("Lado 1: ");
         lado1 = entrada.nextFloat();
         System.out.println("Lado 2: ");
-        lado2 = entrada.nextFloat();}
+        lado2 = entrada.nextFloat();
+    }
+
     public void mostrarDatosConsola(){
         System.out.println("lado1 = " + lado1);
         System.out.println("lado2 = " + lado2);
