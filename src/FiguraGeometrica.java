@@ -3,6 +3,5 @@ public abstract class FiguraGeometrica {
 
     //Métodos
     public abstract void calcularArea();
-
     public abstract void calcularPerimetro();
 }
